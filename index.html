@@ -76,19 +76,31 @@
       </nav>
 
       <!-- Hero section -->
-      <section class="max-w-5xl mx-auto px-2 md:py-10">
-        <h1 class="text-2xl font-bold pt-6">The best GYM int the City</h1>
-        <p class="pt-4">
-          The gym is more than just a place to lift weights — it’s a place where
-          people rebuild themselves. Every drop of sweat represents effort,
-          discipline, and the decision not to give up. There will be days when
-          you feel tired, unmotivated, or weak, but those are the days that
-          matter the most. Progress doesn’t come from comfort; it comes from
-          pushing past your limits. You don’t have to be perfect, you just have
-          to be consistent. Show up for yourself. Work in silence. Let your
-          results speak. Remember, the strongest people aren’t the ones who
-          never struggle — they’re the ones who never quit.
-        </p>
+      <section
+        class="max-w-5xl mx-auto px-2 md:py-10 flex flex-col md:flex-row items-center gap-10"
+      >
+        <div>
+          <h1 class="text-2xl font-bold pt-6">The best GYM int the City</h1>
+          <p class="pt-4">
+            The gym is more than just a place to lift weights — it’s a place
+            where people rebuild themselves. Every drop of sweat represents
+            effort, discipline, and the decision not to give up. There will be
+            days when you feel tired, unmotivated, or weak, but those are the
+            days that matter the most. Progress doesn’t come from comfort; it
+            comes from pushing past your limits. You don’t have to be perfect,
+            you just have to be consistent. Show up for yourself. Work in
+            silence. Let your results speak. Remember, the strongest people
+            aren’t the ones who never struggle — they’re the ones who never
+            quit.
+          </p>
+        </div>
+        <div>
+          <img
+            class=""
+            src="./img/ChatGPT Image Feb 20, 2026, 03_51_35 PM.png"
+            alt=""
+          />
+        </div>
       </section>
 
       <!-- Why choose us -->
@@ -152,8 +164,225 @@
         </div>
       </section>
 
-      <!--  -->
-      <section></section>
+      <!-- Pricing Section -->
+      <section class="py-16 bg-gray-50 rounded-lg">
+        <div class="max-w-6xl mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
+              Pricing Plans
+            </h2>
+            <div class="w-20 h-1 bg-blue-500 mx-auto mt-4 rounded"></div>
+          </div>
+
+          <div class="grid gap-8 md:grid-cols-3">
+            <!-- Basic Plan -->
+            <div class="bg-white p-8 rounded-xl shadow-md text-center">
+              <h3 class="text-xl font-semibold mb-4">Basic Plan</h3>
+              <p class="text-gray-600 mb-4">Perfect for beginners</p>
+              <p class="text-3xl font-bold text-blue-500">
+                $29<span class="text-sm font-normal">/month</span>
+              </p>
+              <ul class="mt-6 space-y-2">
+                <li>Access to gym facilities</li>
+                <li>Basic workout plan</li>
+                <li>Free consultation</li>
+              </ul>
+              <button
+                class="mt-6 bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg transition duration-300 cursor-pointer"
+              >
+                Get Started
+              </button>
+            </div>
+
+            <!-- Premium Plan -->
+            <div
+              class="bg-white p-8 rounded-xl shadow-md text-center border border-blue-500 relative"
+            >
+              <p
+                class="absolute top-4 right-4 bg-blue-500 text-white text-xs px-3 py-1 rounded-full"
+              >
+                Popular
+              </p>
+              <h3 class="text-xl font-semibold mb-4">Premium Plan</h3>
+              <p class="text-gray-600 mb-4">
+                Best for serious fitness enthusiasts
+              </p>
+              <p class="text-3xl font-bold text-blue-500">
+                $59<span class="text-sm font-normal">/month</span>
+              </p>
+              <ul class="mt-6 space-y-2">
+                <li>All Basic features</li>
+                <li>Personal trainer sessions</li>
+                <li>Custom workout plans</li>
+                <li>Nutrition guidance</li>
+              </ul>
+              <button
+                class="mt-6 bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg transition duration=300 cursor-pointer"
+              >
+                Get Started
+              </button>
+            </div>
+
+            <!-- Elite Plan -->
+            <div>
+              <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <h3 class="text-xl font-semibold mb-4">Elite Plan</h3>
+                <p class="text-gray-600 mb-4">For those who want it all</p>
+                <p class="text-3xl font-bold text-blue-500">
+                  $99<span class="text-sm font-normal">/month</span>
+                </p>
+                <ul class="mt-6 space-y-2">
+                  <li>All Premium features</li>
+                  <li>Unlimited personal trainer sessions</li>
+                  <li>Exclusive access to VIP lounge</li>
+                  <li>Priority class bookings</li>
+                </ul>
+                <button
+                  class="mt-6 bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg transition duration-300 cursor-pointer"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Compare Plans Section -->
+      <section class="py-16 bg-gray-50 rounded-lg">
+        <div class="max-w-6xl mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
+              Compare Plans
+            </h2>
+          </div>
+
+          <div class="overflow-x-auto">
+            <table class="min-w-full bg-white border border-gray-200">
+              <thead>
+                <tr>
+                  <th class="py-4 px-6 text-left border-b border-gray-200">
+                    Features
+                  </th>
+                  <th class="py-4 px-6 text-center border-b border-gray-200">
+                    Basic
+                  </th>
+                  <th class="py-4 px-6 text-center border-b border-gray-200">
+                    Premium
+                  </th>
+                  <th class="py-4 px-6 text-center border-b border-gray-200">
+                    Elite
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="py-4 px-6 border-b border-gray-200">
+                    Access to gym facilities
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    ✓
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    ✓
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    ✓
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-4 px-6 border-b border-gray-200">
+                    Personal trainer sessions
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    -
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    ✓
+                  </td>
+                  <td class="py=4 px=6 text-center border-b border-gray=200">
+                    ✓
+                  </td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <td class="py-4 px-6 border-b border-gray-200">
+                    Custom workout plans
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    -
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    ✓
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    ✓
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-4 px-6 border-b border-gray-200">
+                    Nutrition guidance
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    -
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    ✓
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    ✓
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-4 px-6 border-b border-gray-200">
+                    Unlimited personal trainer sessions
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    -
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    -
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    ✓
+                  </td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <td class="py-4 px-6 border-b border-gray-200">
+                    Exclusive access to VIP lounge
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    -
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    -
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    ✓
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-4 px-6 border-b border-gray-200">
+                    Priority class bookings
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    -
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    -
+                  </td>
+                  <td class="py-4 px-6 text-center border-b border-gray-200">
+                    ✓
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
